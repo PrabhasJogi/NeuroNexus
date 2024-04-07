@@ -1,0 +1,173 @@
+.bg-container{
+    background-color: black;
+    /* background-image: url("https://plus.unsplash.com/premium_photo-1676795460328-e02ee1b42b4c?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
+    background-image: url("https://images.unsplash.com/photo-1633432695903-9ef31eec6a05?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height: 100%;
+    background-size: cover;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    background-color: black;
+}
+.nav-item{
+    font-weight: bold;
+    transition: 0.4s all ease-in;
+}
+.nav-item:hover{
+    display: inline;
+    background: #eb01c0;
+    box-shadow: 0 0 5px #eb01c0,
+                    0 0 25px #eb01c0,
+                    0 0 50px #eb01c0,
+                    0 0 200px #eb01c0;
+
+}
+.logo{
+    height: 50px;
+    width: 150px;
+    margin-left: 20px;
+}
+.logo:hover{
+    background: #eb01c0;
+    box-shadow: 0 0 5px #eb01c0,
+                0 0 25px #eb01c0,
+                0 0 50px #eb01c0,
+                0 0 200px #eb01c0;
+}
+.neuro-nexus-heading{
+    color: white;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.welcome-heading{
+    color:white;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+strong{
+    font-family: 'Times New Roman', Times, serif;
+}
+.NN-description{
+    color: white;
+    font-size: 20px;
+}
+.description2{
+    color: white;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.apply-button{
+    height: 50px;
+    width: 150px;
+    color: white;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: black;
+    border-color: white;
+    font-weight: bold;
+    transition: 0.4s all ease-in;
+    margin-bottom: 100px;
+}
+.apply-button:hover{
+        background: #03e9f4;
+        color: #050801;
+        box-shadow: 0 0 5px #03e9f4,
+                    0 0 25px #03e9f4,
+                    0 0 50px #03e9f4,
+                    0 0 200px #03e9f4;
+    }
+.image{
+    height: 200px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.about-us-container:hover{
+    transform: scale(0.8);
+    border-style:solid;
+    border-color: black;
+    box-shadow: 0 20px 40px rgba(72,78,85,.6);
+}
+.about-us-heading{
+    color: black;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.para1{
+    color: rgb(173, 169, 169);
+}
+.intership-heading{
+    color: black;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.intern-card{
+    border: solid 2px rgb(173, 169, 169);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.intern-card:hover{
+    transform: scale(0.8);
+    border-style:solid;
+    border-color: black;
+    box-shadow: 0 20px 40px rgba(72,78,85,.6);
+}
+
+.internship-logo{
+    height: 180px;
+    width: 100%;
+    text-align: center;
+}
+.intern-description{
+    color: rgb(173, 169, 169);
+    text-align: center;
+}
+.footer-section{
+    border: solid 2px black;
+    padding: 10px;
+    background-color: black;
+}
+.follow-logo
+{
+    border: solid 3px white;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+.follow-logo:hover{
+    cursor: pointer;
+    transform: scale(0.8);
+    background: #03e9f4;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+}
+.footer-heading{
+    text-align: center;
+    color: white;
+    font-family: "roboto";
+    font-size: 25px;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.footer-description{
+    text-align: center;
+    color: white;
+    font-family: "roboto";
+    margin-bottom: 20px;
+}
+.horizontal-line{
+    background-color: gray;
+}
+.copy-right-section{
+    color: white;
+    text-align: center;
+    font-family: "roboto";
+}
